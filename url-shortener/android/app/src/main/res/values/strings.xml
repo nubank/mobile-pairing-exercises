@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">URL Shortener</string>
+    <string name="url_edit_text_hint">URL a ser encurtada</string>
+    <string name="short_url_button">Encurtar</string>
+</resources>
