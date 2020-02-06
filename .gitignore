@@ -1,0 +1,6 @@
+.DS_Store
+.gradle/
+.idea/
+*.iml
+url-shortener/android/app/build/
+local.properties
