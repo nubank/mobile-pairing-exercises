@@ -1,0 +1,6 @@
+module Pods_PairingBase_Alamofire_Cocoapods {
+  umbrella header "Pods-PairingBase-Alamofire&Cocoapods-umbrella.h"
+
+  export *
+  module * { export * }
+}

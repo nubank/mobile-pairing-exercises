@@ -1,6 +1,26 @@
-.DS_Store
+**/.DS_Store
+
+# Android
 .gradle/
 .idea/
 *.iml
 url-shortener/android/app/build/
 local.properties
+
+# iOS
+**/ios/**/xcuserdata/
+**/ios/*.xcscmblueprint
+**/ios/*.xccheckout
+**/ios/**/build/
+**/ios/**/DerivedData/
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/!default.pbxuser
+**/ios/**/*.mode1v3
+**/ios/**/!default.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/!default.mode2v3
+**/ios/**/*.perspectivev3
+**/ios/**/!default.perspectivev3
+**/ios/**/*.hmap
+*.xcuserstate
