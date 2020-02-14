@@ -44,5 +44,3 @@ Status: 200 on success with the following body
  ```
  
 Status: 404 when not found
-
-#### Base Url: `https://url-shortener-nu.herokuapp.com`
