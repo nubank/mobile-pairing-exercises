@@ -59,7 +59,7 @@ class NetworkClient {
     ///   - url: Url to be visited.
     ///   - encodableObj: Encodable object representation of the request's body.
     ///   - completion: The completion handler to call when the load request is complete.
-    public func postHTTP<T : Encodable>(at url: String, withEncodableObj encodableObj: T, withCompletion completion: @escaping (HTTPURLResponse?, HTTPRequestError?) -> Void) {
+    public func postHTTP<T : Encodable>(at url: String, withEncodableObj encodableObj: T, withCompletion completion: @escaping (Data?, HTTPRequestError?) -> Void) {
         guard let url = URL(string: url) else {
             completion(nil, .CouldNotFormURL)
             return
@@ -74,8 +74,8 @@ class NetworkClient {
             let jsonData = try jsonEncoder.encode(encodableObj)
             urlRequest.httpBody = jsonData
 
-            request(urlRequest) { (_, response, error) in
-                completion(response, error)
+            request(urlRequest) { (data, _, error) in
+                completion(data, error)
             }
         } catch let error {
             completion(nil, .Unknown(error.localizedDescription))
@@ -95,7 +95,7 @@ class NetworkClient {
             } else {
                 completion(nil, nil, .CouldNotParseResponse)
             }
-            }.resume()
+        }.resume()
     }
 
 }
