@@ -2,7 +2,10 @@
   "reasons": [
       "Viagem",
       "Quero fazer uma compra específica",
-      "Meu limite é incompatível com a minha renda"
+      "Meu limite é incompatível com a minha renda",
+      "Quero gastar mais",
+      "Gastos pontuais não previstos",
+      "Outros"
   ],
   "increase-limit": {
     "success": true
