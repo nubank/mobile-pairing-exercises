@@ -1,4 +1,30 @@
-## URL Shortener API
+# URL Shortener
+
+This exercise aims on creating a small application for creating and storing links of your favorite sites.  
+In order to do this, you'll use an already implemented service that will handle all the backend logic, which is to accept the links and return an alias for it.
+
+This application is composed of only one screen.
+```
+_________________________
+|                       |
+|     |TEXT FIELD|      |
+|       (BUTTON)        |
+|                       |
+|         LIST          |
+|      * ALIAS-1        |
+|      * ALIAS-2        |
+|      * ALIAS-3        |
+|      * ALIAS-4        |
+|      * ALIAS-5        |
+|_______________________|
+```
+
+It has:
+* One input text, that the user will use to write the link;
+* One button which will trigger the action of sending this link to the service;
+* A list with all available links/aliases.
+
+## API
 
 The API is composed of
 
