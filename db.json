@@ -1,11 +1,9 @@
 {
-  "questions": {
-    "reasons": [
+  "reasons": [
       "Viagem",
       "Quero fazer uma compra específica",
       "Meu limite é incompatível com a minha renda"
-    ]
-  },
+  ],
   "increase-limit": {
     "success": true
   }
