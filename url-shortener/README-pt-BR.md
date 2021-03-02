@@ -1,6 +1,6 @@
 # Encurtador de URL
 
-O objetivo desse exercício é ciar uma pequena aplicação para criar e guardar link dos seus sites favoritos.
+O objetivo desse exercício é criar uma pequena aplicação para encurtar e guardar link dos seus sites favoritos.
 Você vai usar um serviço, já implementado, que lida com toda a lógica de backend de aceitar um link e retornar um alias para ele.
 
 A aplicação é composta por apenas uma tela:
