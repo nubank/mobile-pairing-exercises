@@ -23,7 +23,7 @@ _________________________
 Essa tela contém:
 * Um campo de texto onde o usuário digita um link;
 * Um botão para a ação de enviar o link para o serviço;
-* Uma lista com todos os links/alias disponíveis.
+* Uma lista com todos os links/alias disponíveis que já foram encurtados.
 
 ## API
 
