@@ -25,6 +25,14 @@ Essa tela contém:
 * Um botão para a ação de enviar o link para o serviço;
 * Uma lista com todos os links/alias disponíveis que já foram encurtados.
 
+## Projeto base
+
+Para que você possa focar nas partes mais relevantes para o app, temos 2 projetos base já com algumas camadas prontas:
+- iOS:
+   - [Networking com Alamofire (e Cocoapods) configurados](https://github.com/nubank/mobile-pairing-exercises/tree/master/url-shortener/ios/PairingBase-Alamofire%26Cocoapods);
+   - [Networking com URLSession](https://github.com/nubank/mobile-pairing-exercises/tree/master/url-shortener/ios/PairingBase-URLSession);
+- [Android](https://github.com/nubank/mobile-pairing-exercises/tree/master/url-shortener/android).
+
 ## API
 
 A API é composta por:

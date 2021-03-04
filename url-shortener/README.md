@@ -24,6 +24,15 @@ It has:
 * One button which will trigger the action of sending this link to the service;
 * A list with all available links/aliases.
 
+## Base project
+
+To allow you to focus on the more relevant parts of this app, we have base projects with some layers ready:
+- iOS:
+   - [Networking with Alamofire (and Cocoapods) set up](https://github.com/nubank/mobile-pairing-exercises/tree/master/url-shortener/ios/PairingBase-Alamofire%26Cocoapods);
+   - [Networking with URLSession](https://github.com/nubank/mobile-pairing-exercises/tree/master/url-shortener/ios/PairingBase-URLSession);
+- [Android](https://github.com/nubank/mobile-pairing-exercises/tree/master/url-shortener/android).
+
+
 ## API
 
 The API is composed of
