@@ -29,8 +29,8 @@ Essa tela contém:
 
 Para que você possa focar nas partes mais relevantes para o app, temos 2 projetos base já com algumas camadas prontas:
 - iOS:
-   - [Networking with Alamofire (and Cocoapods) set up](https://github.com/nubank/mobile-pairing-exercises/tree/master/url-shortener/ios/PairingBase-Alamofire%26Cocoapods);
-   - [Networking with with URLSession](https://github.com/nubank/mobile-pairing-exercises/tree/master/url-shortener/ios/PairingBase-URLSession);
+   - [Networking com Alamofire (e Cocoapods) configurados](https://github.com/nubank/mobile-pairing-exercises/tree/master/url-shortener/ios/PairingBase-Alamofire%26Cocoapods);
+   - [Networking com URLSession](https://github.com/nubank/mobile-pairing-exercises/tree/master/url-shortener/ios/PairingBase-URLSession);
 - [Android](https://github.com/nubank/mobile-pairing-exercises/tree/master/url-shortener/android).
 
 ## API
