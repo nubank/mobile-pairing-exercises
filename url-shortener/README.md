@@ -60,7 +60,7 @@ Status: 201 on success with the following body
 {
    "alias" : "<url alias>",
    "_links" : {
-     "self" : "<original url>"
+     "self" : "<original url>",
      "short": "<short url>"
    }
 }
