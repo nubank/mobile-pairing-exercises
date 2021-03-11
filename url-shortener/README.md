@@ -58,9 +58,10 @@ Status: 201 on success with the following body
 
 ```json
 {
-   "alias" : "<link alias>",
+   "alias" : "<url alias>",
    "_links" : {
-     "self" : "<this alias url>"
+     "self" : "<original url>"
+     "short": "<short url>"
    }
 }
 ```
