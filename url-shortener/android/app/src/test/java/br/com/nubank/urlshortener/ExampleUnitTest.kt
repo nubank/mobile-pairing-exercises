@@ -1,4 +1,4 @@
-package br.com.urlshortener
+package br.com.nubank.urlshortener
 
 import org.junit.Test
 

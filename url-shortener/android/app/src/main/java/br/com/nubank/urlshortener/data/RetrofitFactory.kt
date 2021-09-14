@@ -1,4 +1,4 @@
-package br.com.urlshortener.data
+package br.com.nubank.urlshortener.data
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
