@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='URL Shortener'
+rootProject.name = "android"
