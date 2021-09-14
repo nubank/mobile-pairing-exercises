@@ -1,8 +1,8 @@
-package br.com.nubank.urlshortener.view
+package com.nubank.urlshortener.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import br.com.nubank.urlshortener.R
+import com.nubank.urlshortener.R
 
 class UrlShortenerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
