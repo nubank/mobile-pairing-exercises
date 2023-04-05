@@ -13,7 +13,7 @@ const hashCode = function(s) {
     return h < 0 ? -h : h;
   };
 
-app.post('/alias', (req, res) => {
+app.post('/api/alias', (req, res) => {
     let longUrl = req.body.url
     if (!longUrl)
         res.status(400).send('Missing url parameter')
@@ -24,7 +24,7 @@ app.post('/alias', (req, res) => {
     }
 });
 
-app.get('/alias/:id', (req, res) => {
+app.get('/api/alias/:id', (req, res) => {
     let alias = req.params.id
     if (!alias)
         res.status(400).send('Missing alias id parameter')
